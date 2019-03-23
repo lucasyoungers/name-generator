@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Name Generator</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <script defer src="https://unpkg.com/vue"></script>
+    <script defer src="generator.js"></script>
+</head>
+
+<body>
+    <div id="generator">
+        <div id="name">{{ name }}</div>
+        <button v-on:click="generateName">Generate a Name!</button>
+    </div>
+</body>
+
+</html>
